@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>photo frame</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <div>
+                <!--header-->
+                <hr>
+                <div class="inline_div">
+                    <div class="text">
+                        <h1 id="heading">photo frames</h1>
+                    </div>
+                    <div class="img">
+                        <img id="logo" src="photo frames.png">
+                    </div>
+                </div>
+                <hr>
+                <!--templates container-->
+                <section id="templates_div">
+                    <h2>frames</h2>
+                    <hr width="150px">
+                    <div>
+                        <div class="inline_div">
+                            <a href="#canvas"><img src="1.png" class="templates" onclick="create_retro()"></a>
+                            <a href="#canvas"><img src="2.png" class="templates" onclick="create_overlap()"></a>
+                        </div>
+                        <div class="inline_div">
+                            <a href="#canvas"><img src="3.png" class="templates" onclick="create_polaroid()"></a>
+                            <a href="#canvas"><img src="4.png" class="templates" onclick="create_circle()"></a>
+                        </div>
+                    </div>
+                </section>
+                <!--canvas container-->
+                <section id="canvas">
+                    <h2>selected frame</h2>
+                    <hr width="300px">
+                    <button onclick="take_snapshot()" class="snap_btn">Take Snapshot</button>
+                    <h4><b>NOTE: </b>Kindly refresh the page after you select another frame. Like, first you clicked retro 
+                        frame but you wanna change the frame so refresh the page and then select the frame of your choice.
+                    </h4>
+                </section>
+            </div>
+        </center>
+    </body>
+</html>

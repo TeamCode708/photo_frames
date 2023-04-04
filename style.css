@@ -1,0 +1,32 @@
+body {
+    background-color: #bbaacc;
+    font-family: "Montserrat";
+}
+
+.inline_div {
+    display: inline-flex;
+}
+
+#logo {
+    width: 130px;
+    height: 120px;
+    padding-left: 10px;
+}
+
+.templates {
+    width: 325px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.snap_btn {
+    background-color: #d1efef;
+    width: 175px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #d6efd1;
+    border-width: 5px;
+    margin-bottom: 20px;
+}
